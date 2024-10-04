@@ -73,7 +73,7 @@ tabFull, tabFullWithoutCO, tabEach = st.tabs(["Combined Plot", "Combined Plot wi
 
 ###############################################################
 # Import data gabungan
-merged_df = pd.read_csv("main_data.csv")
+merged_df = pd.read_csv("./dashboard/main_data.csv")
 
 # Rekap kolom polutan
 polutan_col = ['PM2.5', 'PM10', 'SO2', 'NO2', 'CO', 'O3']
@@ -409,7 +409,7 @@ try:
         ).add_to(beijing_peta)
 
     # Tambahkan anotasi keliling Beijing dari GeoJSON
-    folium.GeoJson("beijing.json", name="Beijing").add_to(beijing_peta)
+    folium.GeoJson("./dashboard/beijing.json", name="Beijing").add_to(beijing_peta)
 
     # Tampilkan peta
     st_beijing_peta = st_folium(beijing_peta)
