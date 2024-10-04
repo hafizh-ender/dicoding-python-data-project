@@ -23,11 +23,7 @@ pip install -r requirements.txt
 ```
 
 ## Run the Streamlit App (Terminal)
-1. Go to the dashboard folder
-```
-cd dashboard
-```
-2. Run the Python script with Streamlit
+1. Run the Python script with Streamlit
 ```
 python -m streamlit run dashboard.py
 ```
