@@ -2,9 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-import os
-import re
-
 from functools import reduce
 
 import folium
@@ -65,7 +62,7 @@ st.markdown(
     """
     ## Analysis
     ### Process
-    Well, in this dashboard, I will mostly present the result. You can find the complete Jupyter Notebook for the full data analysis in my repository.
+    Well, in this dashboard, I will mostly present the result. You can find the complete Jupyter Notebook for the full data analysis in [my repository](https://github.com/hafizh-ender/dicoding-python-data-project.git).
     
     ### Result
     For the first question, I averaged the value of all the data from each monitoring station. After that, we can generate a time-series plot for each pollutant as follow:
