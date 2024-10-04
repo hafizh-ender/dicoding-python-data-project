@@ -1,7 +1,10 @@
-# Proyek Analisis Data
-Hafizh Renanto Akhmad (hafizh_renanto)
+# Data Analysis Project: Beijing Air Quality
+by: Hafizh Renanto Akhmad (hafizh_renanto)
 
-## Tentang Repository
+## Streamlit App
+https://beijing-air-quality-analysis-hafizh.streamlit.app/
+
+## About Repository
 This repository is my project submitted for 'Belajar Analisis Data dengan Python', focusing on air quality data analysis from datasets of Beijing air quality data recorded from feew monitoring sites. 
 
 ## Setup Environment (Terminal)
