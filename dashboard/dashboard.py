@@ -117,7 +117,7 @@ plt.yticks(fontsize=10)
 
 ax1.grid(True,linewidth=0.5)
 
-plt.tight_layout()
+
 ###############################################################
 
 with tabFull:
@@ -143,7 +143,7 @@ plt.yticks(fontsize=10)
 
 ax2.grid(True,linewidth=0.5)
 
-plt.tight_layout()
+
 ###############################################################
 
 with tabFullWithoutCO:
@@ -171,7 +171,7 @@ plt.yticks(fontsize=10)
 
 ax1.grid(True,linewidth=0.5)
 
-plt.tight_layout()
+
 ###############################################################
 
 with tabEach:
