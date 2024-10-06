@@ -299,7 +299,7 @@ st.markdown(
     """
 )
 
-date_choice = datetime.datetime.combine(st.date_input(label='What date?', min_value=datetime.date(2013, 3, 1), max_value=datetime.date(2017, 2, 28)), datetime.datetime.min.time())
+date_choice = datetime.datetime.combine(st.date_input(label='What date?', min_value=datetime.date(2013, 3, 1), max_value=datetime.date(2017, 2, 28), value=datetime.date(2013, 3, 1)), datetime.datetime.min.time())
 hour_choice = st.time_input("What time?", step=3600).hour
 pollutant_choice = str(st.selectbox(
     label="What's the pollutant?",
